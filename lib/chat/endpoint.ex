@@ -2,9 +2,9 @@ defmodule Chat.Endpoint do
   use Phoenix.Endpoint, otp_app: :chat
 
   socket "/socket", Chat.UserSocket,
-    websocket: true,
+    websocket: [timeout: 45_000],
     longpoll: true
-  
+
   socket "/live", Phoenix.LiveView.Socket
 
 
