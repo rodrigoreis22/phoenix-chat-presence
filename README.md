@@ -12,7 +12,7 @@ To start your new Phoenix application you have to:
 Now you can visit `localhost:4000` from your browser.
 
 ## Live Demo
-http://phoenixchat.herokuapp.com
+https://phoenix-chat-presence.herokuapp.com/
 
 
 ## Example Code
